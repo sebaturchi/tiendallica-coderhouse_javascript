@@ -47,70 +47,40 @@
       <h5>Carrito de compras:</h5>
 
       <div class="row bg-light mx-auto mb-4">
-        <!-- Mitad izquierda (5 columnas) -->
         <div class="col-lg-5">
-          <!-- Título ARTICULOS -->
           <div class="row">
             <div class="col-12">
               <h6>ARTICULOS:</h6>
             </div>
           </div>
-          <!-- Lista de artículos -->
           <div class="row">
             <div class="col-12">
-              <ul>
-                <li>Gibson Les Paul: $5.150.350</li>
-                <li>Fender Stratocaster: $3.755.346</li>
-                <li>PRS SE Standard 24-08: $1.749.941</li>
+              <ul id="lista-carrito">
               </ul>
             </div>
           </div>
         </div>
       
-        <!-- Mitad derecha (5 columnas) -->
         <div class="col-lg-5">
-          <!-- Título TOTAL A PAGAR -->
           <div class="row">
             <div class="col-12">
               <h6>TOTAL A PAGAR:</h6>
             </div>
           </div>
-          <!-- Cálculo total -->
-          <div class="row">
-            <div class="col-12">
-              <span>$5.150.350</span>
-            </div>
-            <div class="col-12">
-              <span>+</span>
-            </div>
-            <div class="col-12">
-              <span>$3.755.346</span>
-            </div>
-            <div class="col-12">
-              <span>+</span>
-            </div>
-            <div class="col-12">
-              <span>$1.749.941</span>
-            </div>
-            <div class="col-12">
-              <span>_______</span>
-            </div>
-            <div class="col-12">
-              <span>$10.655.637</span>
-            </div>
+          <div class="row" id="detalle-precios">
           </div>
         </div>
       </div>
-      
-      <!-- Fila de botones -->
+
       <div class="row bg-light">
         <div class="col-6 text-start">
-          <button type="submit" class="btn btn-danger">CANCELAR</button>
+          <button type="button" class="btn btn-danger" id="cancelar-carrito">CANCELAR</button>
         </div>
         <div class="col-6 text-end">
           <button type="submit" class="btn btn-secondary">COMPRAR</button>
         </div>
       </div>
+
       
 
     </div>
