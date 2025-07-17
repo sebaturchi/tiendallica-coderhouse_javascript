@@ -31,6 +31,8 @@ body{
   margin: 0 auto;
   margin-top: $spacer;
   margin-bottom: $spacer*1.5;
+  display: flex;
+  justify-content: center;
 }
 
 @mixin mixin-pie-contenido{
@@ -53,14 +55,13 @@ body{
   @include navbar-nav-propio;
 }
 
-main{
-  div{
-    div{
-      display: flex;
-      justify-content: center;
-        .container-logo-tiendallica{
-          @include mixin-logo-tiendallica;
-      }
+main {
+  .contenedor-logo {
+    display: flex;
+    justify-content: center;
+
+    .container-logo-tiendallica {
+      @include mixin-logo-tiendallica;
     }
   }
 }

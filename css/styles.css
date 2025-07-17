@@ -16,14 +16,16 @@ body {
   justify-content: space-around;
 }
 
-main div div {
+main .contenedor-logo {
   display: flex;
   justify-content: center;
 }
-main div div .container-logo-tiendallica {
+main .contenedor-logo .container-logo-tiendallica {
   margin: 0 auto;
   margin-top: 1rem;
   margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
 }
 
 .pie-contenido {

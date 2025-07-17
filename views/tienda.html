@@ -7,7 +7,6 @@
     <meta name="keywords" content="ofertas, destacados, precios bajos, oportunidades">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="icon" href="../favicon.ico" type="image/x-icon">
     <title>Tienda</title>
@@ -34,141 +33,31 @@
   <main>
 
     <div class="container mb-5">
-      <div class="row">
+      <div class="row contenedor-logo">
         <div class="col-lg-6 container-logo-tiendallica">
           <img src="../assets/img/logo_tiendallica.png" alt="Logo de la tienda de instrumentos tiendallica" class="img-fluid logo-tiendallica">
         </div>
       </div>
     </div>
 
-    <div class="container">
+    <div class="container mb-5">
       <div class="row">
-        <div class="col-lg-12 text-center mb-4">
+        <div class="col-12 text-center mb-4">
+          <h2>Más destacados:</h2>
+        </div>
+      </div>
+      <div class="row" id="contenedor-destacados"></div>
+    </div>
+    
+    <div class="container mb-5">
+      <div class="row">
+        <div class="col-12 text-center mb-4">
           <h2>En oferta:</h2>
         </div>
       </div>
-    
-      <div class="row">
-
-        <div class="col-lg-3 mb-4">
-          <div class="card">
-            <img src="https://therockstore.com.ar/wp-content/uploads/2021/10/1621278929633.jpg" class="card-img-top" alt="Guitarra sobre contraste blanco">
-            <div class="card-body">
-              <h5 class="card-title">Guitarra X</h5>
-              <p class="descripcion">Guitarra marca x modelo x, nueva</p>
-              <span class="precio">$1.157.458</span>
-              <a href="articulo.html" class="btn btn-secondary">Mas detalles</a>
-              <button class="btn btn-primary agregar-carrito">Agregar al carrito</button>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col-lg-3 mb-4">
-          <div class="card">
-            <img src="https://therockstore.com.ar/wp-content/uploads/2021/10/1621789706945.jpg" class="card-img-top" alt="Guitarra sobre contraste blanco">
-            <div class="card-body">
-              <h5 class="card-title">Guitarra Y</h5>
-              <p class="descripcion">Guitarra marca y modelo y, nueva</p>
-              <span class="precio">$1.200.000</span>
-              <a href="articulo.html" class="btn btn-secondary">Mas detalles</a>
-              <button class="btn btn-primary agregar-carrito">Agregar al carrito</button>
-            </div>
-          </div>
-        </div>
-    
-        <div class="col-lg-3 mb-4">
-          <div class="card">
-            <img src="https://therockstore.com.ar/wp-content/uploads/2021/10/1621780676134.jpg" class="card-img-top" alt="Guitarra sobre contraste blanco">
-            <div class="card-body">
-              <h5 class="card-title">Guitarra Z</h5>
-              <p class="descripcion">Guitarra marca z modelo z, nueva</p>
-              <span class="precio">$1.350.000</span>
-              <a href="articulo.html" class="btn btn-secondary">Mas detalles</a>
-              <button class="btn btn-primary agregar-carrito">Agregar al carrito</button>
-            </div>
-          </div>
-        </div>
-    
-        <div class="col-lg-3 mb-4">
-          <div class="card">
-            <img src="https://therockstore.com.ar/wp-content/uploads/2021/10/1621351677404-600x873.jpg.webp" class="card-img-top" alt="Guitarra sobre contraste blanco">
-            <div class="card-body">
-              <h5 class="card-title">Guitarra A</h5>
-              <p class="descripcion">Guitarra marca a modelo a, nueva</p>
-              <span class="precio">$1.500.000</span>
-              <a href="articulo.html" class="btn btn-secondary">Mas detalles</a>
-              <button class="btn btn-primary agregar-carrito">Agregar al carrito</button>
-            </div>
-          </div>
-        </div>
-
-      </div>
+      <div class="row" id="contenedor-ofertas"></div>
     </div>
 
-
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center mb-4">
-          <h2>Mas destacados:</h2>
-        </div>
-      </div>
-    
-      <div class="row">
-
-        <div class="col-lg-3 mb-4">
-          <div class="card">
-            <img src="https://therockstore.com.ar/wp-content/uploads/2021/10/1621277618619.jpg" class="card-img-top" alt="Guitarra sobre contraste blanco">
-            <div class="card-body">
-              <h5 class="card-title">Guitarra X</h5>
-              <p class="descripcion">Guitarra marca x modelo x, nueva</p>
-              <span class="precio">$1.157.458</span>
-              <a href="articulo.html" class="btn btn-secondary">Mas detalles</a>
-              <button class="btn btn-primary agregar-carrito">Agregar al carrito</button>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col-lg-3 mb-4">
-          <div class="card">
-            <img src="https://therockstore.com.ar/wp-content/uploads/2021/10/1621730546262.jpg" class="card-img-top" alt="Guitarra sobre contraste blanco">
-            <div class="card-body">
-              <h5 class="card-title">Guitarra Y</h5>
-              <p class="descripcion">Guitarra marca y modelo y, nueva</p>
-              <span class="precio">$1.200.000</span>
-              <a href="articulo.html" class="btn btn-secondary">Mas detalles</a>
-              <button class="btn btn-primary agregar-carrito">Agregar al carrito</button>
-            </div>
-          </div>
-        </div>
-    
-        <div class="col-lg-3 mb-4">
-          <div class="card">
-            <img src="https://therockstore.com.ar/wp-content/uploads/2021/10/1621730314952.jpg" class="card-img-top" alt="Guitarra sobre contraste blanco">
-            <div class="card-body">
-              <h5 class="card-title">Guitarra Z</h5>
-              <p class="descripcion">Guitarra marca z modelo z, nueva</p>
-              <span class="precio">$1.350.000</span>
-              <a href="articulo.html" class="btn btn-secondary">Mas detalles</a>
-              <button class="btn btn-primary agregar-carrito">Agregar al carrito</button>
-            </div>
-          </div>
-        </div>
-    
-        <div class="col-lg-3 mb-4">
-          <div class="card">
-            <img src="https://therockstore.com.ar/wp-content/uploads/2021/10/1621797224278-600x900.jpg.webp" class="card-img-top" alt="Guitarra sobre contraste blanco">
-            <div class="card-body">
-              <h5 class="card-title">Guitarra A</h5>
-              <p class="descripcion">Guitarra marca a modelo a, nueva</p>
-              <span class="precio">$1.500.000</span>
-              <a href="articulo.html" class="btn btn-secondary">Mas detalles</a>
-              <button class="btn btn-primary agregar-carrito">Agregar al carrito</button>
-            </div>
-          </div>
-        </div>
-      
-      </div>
-    </div>
   </main>
 
   <footer>
@@ -187,6 +76,7 @@
     </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script src="../js/tienda.js"></script>
 </body>
 </html>
